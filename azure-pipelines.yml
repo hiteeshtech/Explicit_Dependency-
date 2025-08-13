@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name: Hitesh_Office_PC_Pool
+  name: Hitesh_Offie_PC_Pool
 
 steps:
 - task: TerraformInstaller@1
