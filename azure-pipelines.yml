@@ -2,8 +2,9 @@ trigger:
 - main
 
 pool:
-  name: Hitesh_Office_Pool
+  name: Hitesh_Office_PC_Pool
 
+steps:
 - task: TerraformInstaller@1
   inputs:
     terraformVersion: 'latest'
